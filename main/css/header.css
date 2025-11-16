@@ -1,0 +1,26 @@
+
+.site-header {
+  width: 100%;
+  background: linear-gradient(90deg, #029f49, #008f53);
+  padding: 45px 0;
+  text-align: center;
+  color: white;
+}
+
+.header-icon img {
+  width: 200px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.header-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.header-desc {
+  font-size: 18px;
+  line-height: 1.5;
+  opacity: 0.9;
+}

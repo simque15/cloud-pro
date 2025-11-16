@@ -1,0 +1,28 @@
+.result-box {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.result-box h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.result-box p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.loading {
+  margin-top: 20px;
+  color: #0077cc;
+  font-size: 1.2rem;
+  display: none;
+  text-align: center;
+}
+

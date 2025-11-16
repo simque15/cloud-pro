@@ -1,22 +1,74 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        쓰레기 분리배출 시스템
+        스마트 분리배출 시스템
     </title>
+
+    <link rel="icon" href="C:\Users\규혀니의 공부저장소\cloudproject\img\ChatGPT Image 2025년 11월 16일 오후 05_45_51.png" type="image/png">
+
+
+  <!-- CSS 연결 -->
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/middle.css">
+  <link rel="stylesheet" href="css/upload.css">
+  <link rel="stylesheet" href="css/result.css">
 </head>
+
 <body>
-<div class="header">
-    안녕하세요
-</div>
-<div class="body">
-    클라우드 프로젝트
-</div>
-<div class="footer">
-    바닥이에용
-</div>
+
+  <!-- ======================== HEADER ======================== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <!-- 아이콘 영역 -->
+      <div class="header-icon">
+        <img src="C:\Users\규혀니의 공부저장소\cloudproject\img\Image cycle.png" alt="에코 아이콘">
+      </div>
+
+      <!-- 텍스트 영역 -->
+      <h1 class="header-title">스마트 분리배출</h1>
+      <p class="header-desc">올바른 분리배출로 지구를 지키세요.<br>품목별 배출 방법을 쉽고 빠르게 찾아보세요.</p>
+    </div>
+  </header>
+
+  <!-- ======================== CONTENT ======================== -->
+  <main class="content">
+
+    <!-- 업로드 영역 -->
+    <section class="upload-section">
+      <div class="upload-box">
+        <label for="fileInput" class="upload-btn">이미지 업로드</label>
+        <input type="file" id="fileInput" accept="image/*">
+      </div>
+
+      <div class="preview-area">
+        <img id="previewImg" src="" alt="미리보기">
+      </div>
+    </section>
+
+    <!-- 결과 영역 -->
+    <section class="result-section">
+      <div class="result-box">
+        <h2>분석 결과</h2>
+        <p id="trashType">쓰레기 종류: -</p>
+        <p id="recycleType">재활용 여부: -</p>
+      </div>
+
+      <div id="loading" class="loading">AI 분석 중...</div>
+    </section>
+
+  </main>
+
+  <!-- ======================== FOOTER ======================== -->
+  <footer class="site-footer">
+    <p>EcoSort © 2025</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="js/aws-config.js"></script>
+  <script src="js/indexjs.js"></script>
 
 </body>
 </html>
