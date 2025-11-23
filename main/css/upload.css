@@ -1,10 +1,16 @@
+/* .preview-area{
+    width: 500px;
+  height: 500px;
+
+} */
+
 .upload-box {
   margin-top: 30px;
   text-align: center;
 }
 
 .upload-btn {
-  background-color: #0088ff;
+  background-color: #32CD32;
   color: white;
   padding: 14px 24px;
   border-radius: 8px;
@@ -14,7 +20,7 @@
 }
 
 .upload-btn:hover {
-  background-color: #0066cc;
+  background-color: #219b21;
 }
 
 #fileInput {

@@ -1,16 +1,21 @@
+/* 
+.hansei{
+background-color: ;
+} */
 
 .site-header {
   width: 100%;
   background: linear-gradient(90deg, #029f49, #008f53);
-  padding: 45px 0;
+  padding: 30px 0;
   text-align: center;
   color: white;
+  margin: 0;
 }
 
 .header-icon img {
   width: 200px;
   height: auto;
-  margin-top: 20px;
+  /* margin-top: 10px; */
 }
 
 .header-title {

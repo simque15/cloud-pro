@@ -7,7 +7,7 @@
         스마트 분리배출 시스템
     </title>
 
-    <link rel="icon" href="C:\Users\규혀니의 공부저장소\cloudproject\img\ChatGPT Image 2025년 11월 16일 오후 05_45_51.png" type="image/png">
+    <link rel="icon" href="./img/ChatGPT Image 2025년 11월 16일 오후 05_45_51.png" type="image/png">
 
 
   <!-- CSS 연결 -->
@@ -15,16 +15,20 @@
   <link rel="stylesheet" href="css/middle.css">
   <link rel="stylesheet" href="css/upload.css">
   <link rel="stylesheet" href="css/result.css">
+  <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
 
   <!-- ======================== HEADER ======================== -->
-  <header class="site-header">
+<!-- <div>
+  <img class="hansei" src="C:\Users\규혀니의 공부저장소\cloudproject\img\tit_system.png" alt="한세로고">
+</div>  -->
+ <header class="site-header">
     <div class="header-inner">
       <!-- 아이콘 영역 -->
       <div class="header-icon">
-        <img src="C:\Users\규혀니의 공부저장소\cloudproject\img\Image cycle.png" alt="에코 아이콘">
+        <img src="./img/Image cycle.png" alt="에코 아이콘">
       </div>
 
       <!-- 텍스트 영역 -->
@@ -36,18 +40,23 @@
   <!-- ======================== CONTENT ======================== -->
   <main class="content">
 
+<br>
+<p>이미지 분석</p>
+
     <!-- 업로드 영역 -->
     <section class="upload-section">
+      <div class="preview-area">
+        <img id="previewImg" src="" alt="미리보기">
+      </div>
+
       <div class="upload-box">
         <label for="fileInput" class="upload-btn">이미지 업로드</label>
         <input type="file" id="fileInput" accept="image/*">
       </div>
 
-      <div class="preview-area">
-        <img id="previewImg" src="" alt="미리보기">
-      </div>
+      
     </section>
-
+<br>
     <!-- 결과 영역 -->
     <section class="result-section">
       <div class="result-box">
@@ -59,16 +68,30 @@
       <div id="loading" class="loading">AI 분석 중...</div>
     </section>
 
-  </main>
+     <!-- 쓰레기 분리 배출 정보 -->
+      <p>쓰레기 분리 배출 정보</p>
+      <br>
+     <div class="list">
+        <div id="label1">재활용 정의</div>
+        <div id="label2">재활용 법률 조항</div>
+        <div id="label3">지원 단체</div>
+        <div id="label4">쓰레기 배출 관련 뉴스</div>
+        <div id="label5">재활용 관련 커뮤니티 </div>
 
+     </div>
+
+  </main>
+<br>
   <!-- ======================== FOOTER ======================== -->
   <footer class="site-footer">
-    <p>EcoSort © 2025</p>
+    <p>EcoSystem © 2025</p>
+    <p> 15852) 경기도 군포시 한세로 30 한세대학교 / TEL. 031-450-5114</p>
   </footer>
 
   <!-- JS -->
   <script src="js/aws-config.js"></script>
   <script src="js/indexjs.js"></script>
+  <script src="js/middle.js"></script>
 
 </body>
 </html>
