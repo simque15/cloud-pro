@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스마트 분리배출 시스템</title>
+
+    <link rel="icon" href="./img/ChatGPT Image 2025년 11월 16일 오후 05_45_51.png" type="image/png">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="./css_menu/quiz.css">
+    <link rel="stylesheet" href="./css_menu/back.css">
+
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <!-- 아이콘 영역 -->
+            <div class="header-icon">
+                <img src="./img/Image cycle.png" alt="에코 아이콘">
+            </div>
+
+            <!-- 텍스트 영역 -->
+            <h1 class="header-title">스마트 분리배출</h1>
+            <p class="header-desc">올바른 분리배출로 지구를 지키세요.<br>품목별 배출 방법을 쉽고 빠르게 찾아보세요.</p>
+        </div>
+    </header>
+    
+    <main class="main-content">
+        <!-- 포인트 카드 -->
+        <div class="points-card">
+            <div class="points-left">
+                <div class="trophy-icon">🏆</div>
+                <div class="points-info">
+                    <p class="points-label">내 포인트</p>
+                    <p class="points-value" id="totalPoints">0 P</p>
+                </div>
+            </div>
+            <div class="points-right">
+                <div class="daily-info">
+                    <span class="calendar-icon">📅</span>
+                    <span>일일 퀴즈</span>
+                </div>
+                <p class="points-reward">+10P</p>
+            </div>
+        </div>
+
+        <!-- 퀴즈 영역 -->
+        <div id="quizContainer" class="quiz-container">
+            <div class="quiz-badge">오늘의 퀴즈</div>
+            <h2 class="quiz-question" id="quizQuestion"></h2>
+
+            <div class="quiz-options" id="quizOptions">
+                <!-- 옵션들이 JavaScript로 추가됩니다 -->
+            </div>
+
+            <button class="submit-button disabled" id="submitButton" disabled>
+                정답 제출하기
+            </button>
+
+            <div class="result-box hidden" id="resultBox">
+                <!-- 결과가 JavaScript로 추가됩니다 -->
+            </div>
+        </div>
+
+        <!-- 퀴즈 완료 메시지 -->
+        <div id="completedMessage" class="completed-container hidden">
+            <div class="completed-icon">📅</div>
+            <h2 class="completed-title">오늘의 퀴즈를 완료했습니다!</h2>
+            <p class="completed-text" id="nextQuizTime">다음 퀴즈까지 남은 시간을 계산 중...</p>
+            <div class="tip-box">
+                <p class="tip-title">💚 분리배출 TIP</p>
+                <p class="tip-text">재활용품은 이물질을 제거하고 깨끗하게 씻어서 배출하면 재활용률이 높아집니다!</p>
+            </div>
+        </div>
+
+        <!-- 뒤로가기 버튼 -->
+        <button class="back-button" id="k">← 뒤로가기</button>
+    </main>
+
+    <footer class="site-footer">
+        <p>지구를 지키는 작은 실천, 분리배출! 🌍</p>
+    </footer>
+
+    <script src="js/reback.js"></script>
+    <script src="js/quiz.js"></script>
+</body>
+</html>
