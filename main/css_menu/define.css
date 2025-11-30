@@ -1,0 +1,45 @@
+.trash {
+    display: flex;
+    justify-content: space-between; /* 간격 일정 */
+    width: 100%;
+    margin-top: 10px;
+}
+
+.trash img {
+    width: calc((100% - 40px)/5); /* 5개 한 줄 + gap 고려 */
+    height: auto;                  /* 원본 비율 유지 */
+    display: block;                /* 줄바꿈 방지 */
+}
+
+.mnmain {
+margin: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.main-content1 {
+width: 500px;
+padding: 30px;
+background: #ffffff;
+border: 2px solid #66ff00;
+border-radius: 20px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+.main-content1 p {
+background: #f0ffe6;
+padding: 16px;
+border-left: 5px solid #7fff00;
+border-radius: 12px;
+line-height: 1.6;
+margin-bottom: 40px;
+font-size: 18px;
+}
+
+
+.main-content1 p:first-child {
+margin-top: 0;
+}
