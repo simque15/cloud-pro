@@ -1,0 +1,83 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #1f2937;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 1.75;
+}
+.boxx{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cta {
+    padding: 5rem 1.5rem;
+    background: white;
+    text-align: center;
+}
+
+.cta-icon {
+    margin-bottom: 2rem;
+}
+
+.cta-icon img {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.cta h2 {
+    color: #1f2937;
+    margin-bottom: 1.5rem;
+}
+
+.cta-text {
+    font-size: 1.25rem;
+    color: #4b5563;
+    margin-bottom: 2rem;
+}
+
+.btn-secondary {
+    display: inline-block;
+    background: #16a34a;
+    color: white;
+    padding: 1rem 2.5rem;
+    border-radius: 9999px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.btn-secondary:hover {
+    background: #15803d;
+    transform: translateY(-2px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
